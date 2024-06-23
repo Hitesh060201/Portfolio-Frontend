@@ -1,0 +1,65 @@
+.techstack{
+    padding-left:150px ;
+    margin: 60px 0px;
+}
+.techstack hr{
+    color: hsl(229, 100%, 50%);
+    width: 400px;
+    margin: 10px auto;
+}
+.techstack h2{
+    font-weight: bolder;
+    color: hsl(224, 97%, 48%);
+    cursor: pointer;
+}
+.techstack p{
+  font-weight: 700;
+}
+.techstack .card{
+    
+    cursor: pointer;
+    box-shadow: rgb(1, 66, 245) 0px 10px 36px 0px, rgba(54, 0, 247, 0.63) 0px 0px 0px 1px;
+}
+.techstack .tech-icon{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.techstack .card:hover{
+    color: white;
+    background-color: #053fdf;
+    border: none;
+    transition: 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.techstack h2:hover{
+    color: rgb(173, 7, 35);
+    transition: 1.5s;
+}
+
+ /* ========= DARK MODE ============ */
+ 
+  #dark .techstack h2{
+    color: aliceblue;
+  }
+  #dark .techstack hr{
+    color: aliceblue;
+  }
+  #dark .techstack h2:hover{
+    color: rgb(255, 251, 0);
+    transition: 1s;
+  }
+  /* =============================== */
+@media (max-width: 600px) {
+    .techstack {
+      padding: 0;
+      margin: 0;
+      margin-top: 50px;
+    }
+  
+    .techstack hr {
+      width: 280px;
+    }
+    
+   
+    }
+  

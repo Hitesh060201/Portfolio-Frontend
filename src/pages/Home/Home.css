@@ -1,0 +1,127 @@
+.home-container{
+    height: 437px;
+   
+    padding-left:150px;
+}
+.home-content h2{
+    padding: 5px;
+    padding-top: 80px;
+    color: yellow;
+}
+.home-content h1{
+    margin-top: 20px;
+    padding: 5px;
+    color: hsl(76, 100%, 50%);
+}
+.home-buttons{
+    padding: 30px;
+    /* margin-left: 30px; */
+    margin-top: 8px;
+    
+    
+}
+.home-buttons .btn-hire{
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
+    width: 150px;
+}
+.home-buttons .btn-hire:hover{
+    background-color: hsl(313, 100%, 50%);
+    color: rgb(255, 255, 255);
+    width: 180px;
+    transition: 0.7s;
+}
+.home-buttons .btn-cv{
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    margin-left: 15px;
+}
+.home-buttons .btn-cv:hover{
+    background-color: hsl(313, 100%, 50%);
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+    transition: 0.7s;
+}
+.home-buttons .btn-git{
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    margin-left: 15px;
+}
+.home-buttons .btn-git:hover{
+    background-color: hsl(313, 100%, 50%);
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+    width: 165px;
+    transition: 0.7s;
+}
+.b1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.b2{
+    font-family:Arial, Helvetica, sans-serif;;
+    font-weight: bolder;
+}
+.b3{
+    font-family:Arial, Helvetica, sans-serif;;
+    font-weight: bolder;
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+/* =============== */
+@media (max-width: 600px) {
+.home-container {
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+       
+        
+    }
+.home-content{
+    background-color: black;
+        width: 615px;
+        margin-left: 0;
+    }
+.home-container h2 {
+        
+font-size: 24px;
+    }
+.home-container h1 {
+   
+font-size: 24px;
+    }
+.home-buttons{
+    margin-left: 380px;
+            
+            width:60px;
+           
+        }
+.home-buttons .btn{
+    flex-basis: 30%; /* adjust the width of each box */
+  margin: 10px;
+  background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
+  padding: 10px;
+  
+}
+
+
+
+  }

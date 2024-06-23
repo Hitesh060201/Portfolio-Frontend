@@ -1,0 +1,25 @@
+ h4{
+    color: #0842f3;
+    cursor: pointer;
+}
+h4:hover{
+    color: hsl(325, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+
+#dark  h4{
+    color: #d7d9df;
+}
+#dark  h4:hover{
+    color: hsl(64, 100%, 50%);
+}
+
+
+@media (max-width: 600px){
+    #dark body{
+        width: 605px;
+    }
+}

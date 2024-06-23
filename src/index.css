@@ -1,0 +1,40 @@
+/*css Reset*/
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body{
+  background-color: rgb(193, 192, 255);
+}
+/* DARK MODE */
+#dark {
+  background:linear-gradient(to bottom right ,gray, black);
+  color: #f4eee0;
+}
+#dark body{
+  background:linear-gradient(to bottom right ,gray, black);
+  color: #f4eee0;
+  width: 605px;
+}
+
+/* ======================= */
+@media (max-width: 600px)
+
+
+{
+  body{
+    width: 605px;
+    
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
