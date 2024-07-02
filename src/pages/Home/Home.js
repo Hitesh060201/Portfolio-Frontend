@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Wobble from 'react-reveal/Wobble';
 import Typewriter from 'typewriter-effect';
 import { useTheme } from '../../Content/ThemeContent';
-import Resume from '../../assets/docs/Hitesh Kumar Misra CV21.pdf';
+import Resume from '../../assets/docs/Hitesh Misra CV.pdf';
 import './Home.css';
 
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
           
           
           <Wobble >
-          <a className="btn btn-cv b2" href={Resume} download="HITESH KUMAR MISRA CV21.pdf">My Resume</a>
+          <a className="btn btn-cv b2" href={Resume} download="HITESH MISRA CV.pdf">My Resume</a>
           </Wobble>
           
          
