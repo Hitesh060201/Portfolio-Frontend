@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Wobble from 'react-reveal/Wobble';
 import Typewriter from 'typewriter-effect';
 import { useTheme } from '../../Content/ThemeContent';
-import Resume from '../../assets/docs/Hitesh Misra CV.pdf';
+import Resume from '../../assets/docs/Hitesh_Kumar_Misra_CV _Java_Dev.pdf';
 import './Home.css';
 
 const Home = () => {
