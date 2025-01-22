@@ -1,6 +1,6 @@
-import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap,BsFiletypeJava,BsFiletypeXml,BsFiletypeSql  } from "react-icons/bs";
-import { FaNodeJs, FaCuttlefish } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap,BsFiletypeXml,BsFiletypeSql  } from "react-icons/bs";
+import { FaNodeJs, FaCuttlefish,FaJava } from "react-icons/fa";
+import { TbBrandNextjs,TbApi } from "react-icons/tb";
 import {
   SiJavascript,
   SiMui,
@@ -12,15 +12,44 @@ import {
   SiGithub,
   SiExpress,
   SiPython,
-  SiKotlin
+  SiKotlin,
+  SiSpring,
+  SiHibernate,
 } from "react-icons/si";
+import { BiLogoJava } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
+import { VscVscode } from "react-icons/vsc";
 export const TechstackList = [
   
     {
       _id: 17,
       name: "Java ",
-      icon: BsFiletypeJava,
+      icon: FaJava,
     },
+   {
+      _id: 22,
+      name: "Spring Boot ",
+      icon: SiSpring,
+    },
+  {
+      _id: 23,
+      name: "Hibernate ",
+      icon: SiHibernate,
+    },
+  {
+      _id: 24,
+      name: "Servlet ",
+      icon: BiLogoJava,
+    },
+ 
+  
+  {
+      _id: 25,
+      name: "API Testing ",
+      icon: TbApi,
+    },
+  
+  
     
     {
       _id: 19,
@@ -78,6 +107,11 @@ export const TechstackList = [
     name: "SQL ",
     icon: BsFiletypeSql ,
   },
+  {
+    _id: 26,
+    name: "MYSQL ",
+    icon: GrMysql ,
+  },
   
   {
     _id: 16,
@@ -101,6 +135,17 @@ export const TechstackList = [
     name: "XML ",
     icon: BsFiletypeXml,
   },
+   {
+    _id: 27,
+    name: "VS Code ",
+    icon: VscVscode,
+  },
+  {
+    _id: 28,
+    name: "Eclipe ",
+    icon: VscVscode,
+  },
+  
   // {
   //   _id: 7,
   //   name: "React MUI",
