@@ -46,7 +46,7 @@ const Home = () => {
           
           
           <Wobble >
-          <a className="btn btn-cv b2" href={Resume} download="HITESH MISRA CV.pdf">My Resume</a>
+          <a className="btn btn-cv b2" href={Resume} download="Hitesh_Kumar_Misra_CV _Java_Dev.pdf">My Resume</a>
           </Wobble>
           
          
