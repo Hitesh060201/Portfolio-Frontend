@@ -16,7 +16,8 @@ import {
   SiSpring,
   SiHibernate,
   SiEclipseide,
-  SiIntellijidea,SiApachemaven 
+  SiIntellijidea,SiApachemaven,
+  SiHtml5
 } from "react-icons/si";
 import { BiLogoJava } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
@@ -65,7 +66,7 @@ export const TechstackList = [
     },{
     _id: 1,
     name: "HTML",
-    icon: BsFiletypeHtml,
+    icon: SiHtml5,
   },
   {
     _id: 2,
