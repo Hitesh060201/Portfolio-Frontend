@@ -15,6 +15,8 @@ import {
   SiKotlin,
   SiSpring,
   SiHibernate,
+  SiEclipseide,
+  SiIntellijidea,SiApachemaven 
 } from "react-icons/si";
 import { BiLogoJava } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
@@ -40,6 +42,11 @@ export const TechstackList = [
       _id: 24,
       name: "Servlet ",
       icon: BiLogoJava,
+    },
+  {
+      _id: 24,
+      name: "maven ",
+      icon: SiApachemaven ,
     },
  
   
@@ -143,8 +150,14 @@ export const TechstackList = [
   {
     _id: 28,
     name: "Eclipe ",
-    icon: VscVscode,
+    icon: SiEclipseide,
   },
+   {
+    _id: 28,
+    name: "intellij idea ",
+    icon: SiIntellijidea,
+  },
+  
   
   // {
   //   _id: 7,
